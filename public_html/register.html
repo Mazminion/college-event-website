@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+	<link rel="stylesheet" href="css/register_style.css">
+  </head>
+  <body>
+	  <div class="register-card">
+	  <h1>Register</h1>
+  
+	  <form>
+		  <input type="text" name="user" placeholder="Username">
+		  <input type="text" name="email" placeholder="Email">
+		  <input type="password" name="pass" placeholder="Password">
+		  <input type="text" name="confirm_pass" placeholder="Confirm Password">
+		  <p>What university do you want to be affiliated with?</p>
+		  <span class="custom-dropdown custom-dropdown--white"
+			style="margin-bottom:10px">
+			<select class="custom-dropdown__select custom-dropdown__select--white">
+				<option>University of Central Florida</option>
+				<option>Hogwarts School of Witchcraft and Wizardry</option>
+				<option>Xavier Institute for Higher Learning</option>
+				<option>Wayside School</option>
+				<option>Ms. Frizzle's School</option>
+			</select>
+		  </span>
+		  <p>What would you like to register as?</p>
+		  <input type="submit" name="super_admin" class="register register-submit" value="Super admin">
+		  <input type="submit" name="admin" class="register register-submit" value="Admin">
+		  <input type="submit" name="student" class="register register-submit" value="Student">
+	  </form>
+
+<!-- <div id="error"><img src="https://dl.dropboxusercontent.com/u/23299152/Delete-icon.png" /> Your caps-lock is on.</div> -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+    
+  </body>
+</html>
